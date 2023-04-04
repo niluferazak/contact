@@ -25,7 +25,7 @@ class AddContact extends React.Component {
             <input
               type="text"
               name="name"
-              placeholder="Name"
+              placeholder="Name.."
              
               onChange={(e) => this.setState({ name: e.target.value })}
             />
@@ -35,7 +35,7 @@ class AddContact extends React.Component {
             <input
               type="number"
               name="number"
-              placeholder="number"
+              placeholder="Number"
              
               onChange={(e) => this.setState({ number: e.target.value })}
             />
